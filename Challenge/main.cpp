@@ -51,5 +51,8 @@ int main()
     cout << "Price per small room: " << price_for_small_room << endl;
     cout << "Price per large room: " << price_for_large_room << endl;
     
+    cout << "cost: $" << (price_for_small_room * small_rooms) + (price_for_large_room * large_rooms) << endl;
+     
+     
 return 0;    
 }
