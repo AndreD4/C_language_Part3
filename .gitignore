@@ -33,3 +33,5 @@
 *.tags
 *.db
 *.db
+*.idx
+GlobalVariables/.clang-format
