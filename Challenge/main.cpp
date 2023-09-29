@@ -56,7 +56,8 @@ int main()
     cout << "Tax: $" << (price_for_small_room * small_rooms * sales_tax) + (price_for_large_room * large_rooms * sales_tax) << endl;
     cout << "=======================================" << endl;
     
-    
+    cout << "Total estimate: $" << (price_for_small_room * small_rooms) + (price_for_small_room * small_rooms * sales_tax) +
+                                   (price_for_large_room * large_rooms) + (price_for_large_room * large_rooms * sales_tax) << endl;
     
      
      

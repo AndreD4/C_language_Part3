@@ -39,3 +39,5 @@ GlobalVariables/.clang-format
 *.db
 *.tags
 *.db
+*.tags
+*.db
