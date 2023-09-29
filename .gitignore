@@ -35,3 +35,5 @@
 *.db
 *.idx
 GlobalVariables/.clang-format
+.codelite/VariablesAndConstants-andre.tags
+*.db

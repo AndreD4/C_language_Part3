@@ -2,8 +2,12 @@
 
 using namespace std;
 
+int age {18}; //Global variable
 int main() 
 {
-  cout << "Default Template" << endl;    
-  return 0;
+
+    int age {16};
+    cout << age << endl;
+    return 0;
+    
 }
