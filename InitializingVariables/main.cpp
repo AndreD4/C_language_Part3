@@ -14,13 +14,15 @@ int main()
 //    int age {21};
 //    cout << age << endl;
     
-    int room_width {0};
-    int room_length {0};
+    
+    
     
     cout << "Enter the width of the room: ";
+    int room_width {0};
     cin >> room_width;
     
     cout << "Enter the length of the room: ";
+    int room_length {0};
     cin >> room_length;
     
     
