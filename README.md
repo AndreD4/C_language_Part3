@@ -82,4 +82,83 @@ Remember, c++ is case-sensitive.
 So the name, age in uppercase is considered
 
 different from the name, age and lowercase
+
+# What is a constant?
+
+* like C++  variables
+
+   -Have names
+  
+   -Occupy storage
+  
+   -Are usually typed
+
+HOWEVER THEIR VALUE CAN NOT BE CHANGED ONCE DELCARED!
+
+* Type of constants
+
+* Declared constants
+  
+   - const KEYWORDS
+
+* Constant expressions
+
+    - constexpr KEYWORD
+ 
+* Defined constants
+    - #defined
+ 
+* Literal constants
+
+* Integer Literal Constants
+  
+     12  - an integer
+  
+     12U - an unsigned integer
+
+     12L - a long integer
+
+     12LL - a long long integer
+
+* Charater Literal Constants (escape door)
+
+     \n  - newline
+
+     \r  - return
+
+     \t   - tab
+
+     \b   - backspace
+
+     \'  - single quote
+
+     \\   - backslash
+
+  cout << "Hello\tthere\nmy friend\n";
+
+  Hello     there
+
+  my friend
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
   
