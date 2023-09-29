@@ -42,6 +42,7 @@ int main()
     
     const double price_for_small_room {25};
     const double price_for_large_room {35};
+    const double sales_tax {0.06};
    
     
     cout << "\nEstimate for carpet cleaning service" << endl;
@@ -51,7 +52,12 @@ int main()
     cout << "Price per small room: " << price_for_small_room << endl;
     cout << "Price per large room: " << price_for_large_room << endl;
     
-    cout << "cost: $" << (price_for_small_room * small_rooms) + (price_for_large_room * large_rooms) << endl;
+    cout << "Cost: $" << (price_for_small_room * small_rooms) + (price_for_large_room * large_rooms) << endl;
+    cout << "Tax: $" << (price_for_small_room * small_rooms * sales_tax) + (price_for_large_room * large_rooms * sales_tax) << endl;
+    cout << "=======================================" << endl;
+    
+    
+    
      
      
 return 0;    

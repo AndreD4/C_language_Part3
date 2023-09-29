@@ -37,3 +37,5 @@
 GlobalVariables/.clang-format
 .codelite/VariablesAndConstants-andre.tags
 *.db
+*.tags
+*.db
