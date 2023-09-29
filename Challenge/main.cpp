@@ -43,6 +43,7 @@ int main()
     const double price_for_small_room {25};
     const double price_for_large_room {35};
     const double sales_tax {0.06};
+    const int estimate_expiry {30};
    
     
     cout << "\nEstimate for carpet cleaning service" << endl;
@@ -56,8 +57,10 @@ int main()
     cout << "Tax: $" << (price_for_small_room * small_rooms * sales_tax) + (price_for_large_room * large_rooms * sales_tax) << endl;
     cout << "=======================================" << endl;
     
-    cout << "Total estimate: $" << (price_for_small_room * small_rooms) + (price_for_small_room * small_rooms * sales_tax) +
+    cout << "\nTotal estimate: $" << (price_for_small_room * small_rooms) + (price_for_small_room * small_rooms * sales_tax) +
                                    (price_for_large_room * large_rooms) + (price_for_large_room * large_rooms * sales_tax) << endl;
+    
+    cout << "This estimate is valid for " << estimate_expiry << " days" << endl;
     
      
      
