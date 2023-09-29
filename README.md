@@ -47,5 +47,39 @@
 
   age = 21;
 
+# Declaring and Intializing variables
 
+The syntax for a variable declaration in c++ is very simple.
+
+First, you tell the compiler what the type of the variable is.
+
+Then you tell the compiler what the name of the variable is.
+
+And finally, you terminate the declaration with a semicolon.
+
+* Naming variables
+* 
+The rules for naming c++ variables are very very simple.
+
+C++ variable names can contain letters, numbers and underscores.
+
+However, the first letter of the name cannot be a number,
+
+it can be an underscore or a letter.
+
+As discussed previously, c++ keywords are also reserved
+
+words so you can't use those names.
+
+You can't use int, you can't use double as your own names.
+
+Also you cannot declare a variable name that's already been declared in the same scope.
+
+So if you declared x to be an integer, you can't do that again.
+
+Remember, c++ is case-sensitive.
+
+So the name, age in uppercase is considered
+
+different from the name, age and lowercase
   
